@@ -15,6 +15,6 @@ class Card:
             self.value = 14
         else:
             self.value = int(rank)
-
+    # Returns a string describing the card. example: "Ace of Spades"
     def get_description(self):
         return f"{self.rank} of {self.suit}"
