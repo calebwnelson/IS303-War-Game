@@ -3,10 +3,11 @@ Attribute: cards (list of Card objects)
 Methods: __init__(), shuffle(), draw_card(), add_cards(cards), card_count()
 Creates a standard 52-card deck, shuffles, draws cards, and adds won cards to the bottom.'''
 
-class Deck:
 
-    from card import Card
-    import random
+from card import Card
+import random
+
+class Deck:
 
     # Creates a deck of 52 cards
     def __init__(self):
