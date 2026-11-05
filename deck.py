@@ -1,3 +1,4 @@
+# Author: Caleb Nelson
 '''Class: Deck
 Attribute: cards (list of Card objects)
 Methods: __init__(), shuffle(), draw_card(), add_cards(cards), card_count()
